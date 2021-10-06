@@ -1,0 +1,3 @@
+# Baby's Development
+
+So far your baby doesn't exist, but this is the week you ovulate. Your ovary releases a ripened egg (ovum) into your fallopian tube, where it will patiently await the sperm that have survived the 6- to 8-inch trek through your cervix and uterus. While 75 to 900 million sperm embark on this journey, less than a thousand actually make it past your cervix—and only one lucky swimmer will have the honor of penetrating the egg at the moment of conception.
