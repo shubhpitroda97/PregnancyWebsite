@@ -1,0 +1,3 @@
+# Baby's Development
+
+Baby? What baby? This concept may be a little hard to wrap your head around, but even though you're technically in the first week of pregnancy, you're not quite expecting — yet. Here's the deal: Because it's generally impossible to know the exact moment of conception, most healthcare providers count 40 weeks from the first day of your last menstrual period (LMP) to calculate your due date. According to this method, they date the beginning of "pregnancy" from about two weeks before the sperm penetrates the egg — which is where you are right now. Already spotted that pink line on a home pregnancy test? You're further along than you think, so skip ahead to Week 4.
