@@ -105,6 +105,10 @@ body {
   max-width:40%;
 }
 
+
+.imagecontainer
+
+
 /*-------------END BACKGROUND-------------*/
 
 
@@ -115,53 +119,69 @@ body {
 
 
 /*-------------DESCRIPTION BOX-------------*/
-
-/*p, 
+/*
 ul {
   background-image: url("./Assets/Backgrounds/Descrpt_box_only.png");
   color: white;
   border: 2px #d30fd3;
   padding: .5em;
   position: relative;
-  top: 20em;
+  top: 5em;
+  left: 70em;
+  width: 30em;
+  height: 30em;
+  opacity: 0.8;
 }
 
-.block,
-li {
+.block,li {
   border: 2px solid blue;
   padding: .5em;
+  height: 5em;
+  transition: width 0.2s, height 0.2s;
+  position: relative
 }
 
 ul {
   display: flex;
   list-style: none
 }
+ul:hover{
+  opacity:1;
+}
 
 .block {
-  display: block;
+  display: flex;
+
+}
+
+.block,li:hover{
+  width: 15em;
+  height: 10em;
 }
 */
 
+
 /*Description Box wrapper*/
+/*
 .box {
     border-style: solid;
     border-width: 1px;
     display: block;
-    width: 10%;
-    height: 10%;
+    width: 30em;
+    height: 30em;
     background-color: #d30fd3;
-    transition: width .1s, height .1s;
     opacity: 0.8;
     position: relative;
-    left: 12em;
+    left: 70em;
+    bottom: 30em;
     
 }
-
+*/
 /*When user cursor hovers over description box, elements change*/
+/*
 .box:hover {
-    width: 200px;
-    height: 250px;
+    opacity: 1;
 }
-
+*/
 
 /*-------------END DESCRIPTION BOX-------------*/
