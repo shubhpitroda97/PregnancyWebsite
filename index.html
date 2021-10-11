@@ -2,7 +2,7 @@
 [HTML Index] 
 [Lukas, Shubh]
 [10/04/21]
-[VERSION NUMBER]
+[1.3]
 [SHORT DESCRIPTION, ONE OR TWO SENTENCES]
 [DATA VARIABLES USED IN THE MODULE]
 -->
@@ -24,16 +24,27 @@
       <img src=/Assets/Logo/LogoOnly.gif class="logoimage">
       
     </div>
-
-    
+        
     <!--This calls the Scroll bar CSS-->
     <div class="slidecontainer">  
       <input type="range" min="0" max="42" value="21" class="slider" id="myRange" onchange="updateImage(this.value);">
       <input type="text" id="textInput" value="">
     </div>  
     
-    <div class="imagecontainer">
+    
+    <div class="updatecontainer">
       <img src="./Assets/MomImages/momw21.gif" id="mombody" class="pregnancy-pic">
+    </div>
+    
+    <div class="fruitimagecontainer">
+      <img src="./Assets/FruitImages/PW21.gif" id="fruit" class="pregnancy-pic">
+    </div>
+
+    <div style="margin-bottom: 100vh;" class="description description--card">
+      <div class="description">
+        <h3 class="description__title">Lorem ipsum dolor</h3>
+        <p class="description__body">Lorem ipsum dolor sit amet.</p>
+      </div>
     </div>
 
 <!--This is a script I found that points to an image of a heart at the url listed. We can use our own local image for the point if we wanted - Anita
@@ -41,17 +52,11 @@
 <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol317.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2009/02/06/glass-heart.html" target="_blank" title="Pink Transparent Valentine Balloon Heart"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Pink Transparent Valentine Balloon Heart" style="position:absolute; top: 0px; right: 0px;" /></a>
 
 
+<!-- Shubh testing displaying text from a description box-->
 
+<div id="sampletext">
 
+</div>
 
-
-
-      
-   
-  
-    <div class="box">
-    </div>
-  
-    
   </body>
 </html>
