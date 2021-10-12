@@ -18,8 +18,9 @@
 /*Container for Scroll Bar*/
 .slidecontainer {
   position: relative;
-  top: 2em;
-    width: 100%;
+  top: 5px;
+  border-radius: 2px;
+  width: 100%;
   padding:0px;
   
 }
@@ -28,10 +29,10 @@
 .slider {
   -webkit-appearance: none;
   width: 100%;
-  height: 10%;
-  border-radius: 5px;
+  height: 15%;
+  border-radius: 3px;
   background: #f3bdf3;
-  box-shadow: inset 0 3px 18px rgba(248, 108, 246, 0.6);
+  box-shadow: inset 0 3px 18px rgba(228, 2, 228, 0.6);
   outline: none;
   opacity: 0.8;
   
@@ -41,7 +42,6 @@
 .slider:hover {
   opacity: 1;
 }
-
 
 /*Compatability for Chrome, etc.*/
 .slider::-webkit-slider-thumb {
@@ -56,13 +56,6 @@
   cursor: pointer;
   outline: none;
 }
-
-/*SliderThumbIndicator. Balloon indicates slide position*/
-
-.slider:indicator {
-  
-}
-
 
 /*Compatability for Firefox Browser*/
 .slider::-moz-range-thumb {
@@ -84,16 +77,17 @@
 /*-------------LOGO-------------*/
 
 .TopContainer{
-  height:100px;
+  height:75px;
   background-color: blue;
   display:flex; 
   justify-content:space-around; 
   align-items:center;
-  
+  border-radius: 12px;  
   padding:0px;
   
 }
 
+/*This sets the height and width of the logo.*/
 .logoimage {
   max-width:40%;
   max-height:70%;
@@ -107,13 +101,16 @@
 
 /*-------------BACKGROUND-------------*/
 
+/*This sets the elements for the entire body of the webpage.*/
 body {
   margin:0em;
   padding:0em;
+  /*This element changes the background to a polkadot background.*/
   background-image: url('polkabgtest.gif'); 
   
 }
 
+/*This sets the height and width of the pregnancy picture.*/
 .pregnancy-pic {
   max-height:40%;
   max-width:40%;
@@ -133,16 +130,19 @@ body {
 
 
 /*-------------DESCRIPTION BOX-------------*/
-
+/*This sets the general box in which the descriptions will be.*/
 .description {
   padding: 2rem;
-  background-image: url('Descrpt_box_only.png');
+  background-image: url('Assets/Backgrounds/Descrpt_box_only.png');
   background-size: cover;
   background-color:#f3bdf3;
   background-blend-mode: multiply;
   color: black;
   text-align: left;
+  font-family:"Krungthep";
 }
+
+/*This creates the title of each individual description box.*/
 .description__title{
   position: relative;
   z-index: 1;
@@ -150,6 +150,7 @@ body {
   margin-bottom: 1rem;
 }
 
+/*This creates the animation that happens whenever the description box is hovered over. Specifically, it designates what the elements should be after the cursor hovers over it.*/
 .description__title::after{
   content: '';
   position: absolute;
@@ -165,10 +166,12 @@ body {
   transition: transform 250ms ease-in;
 }
 
+/*This activates the animation when cursor hovers over description box.*/
 .description:hover .description__title::after{
   transform: scaleX(1);
 }
 
+/*This creates the description body that contains all content about the weekly stages.*/
 .description__body{
   position: relative;
   color: transparent;
@@ -177,6 +180,7 @@ body {
   transition: color 200ms 350ms;
 }
 
+/*This creates the animation that happens whenever the description box is hovered over. Specifically, it designates what the elements of the description body should be after the cursor hovers over it.*/
 .description__body::after{
   content:'';
   position: absolute;
@@ -192,10 +196,12 @@ body {
   transition-delay:  250ms;
 }
 
+/*This changes the text of the description body content to different color after the cursor hovers over the box.  This is to change the text from transparent to visible.*/
 .description:hover .description__body{
     color: black;
 }
 
+/*This activates the animation for the description body.*/
 .description:hover .description__body::after{
   transform: scaleY(1);
 }

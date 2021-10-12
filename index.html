@@ -27,32 +27,37 @@
         
     <!--This calls the Scroll bar CSS-->
     <div class="slidecontainer">  
-      <input type="range" min="0" max="42" value="21" class="slider" id="myRange" onchange="updateImage(this.value);">
-      <input type="text" id="textInput" value="">
-    </div>  
-    
-    
-    <div class="updatecontainer">
+      <input type="range" min="1" max="42" value="21" class="slider" id="myRange" onchange="updateImage(this.value);">
+      <input type="text" id="textInput" value="21">
+      </div>  
+
+     <div class="updatecontainer">
       <img src="./Assets/MomImages/momw21.gif" id="mombody" class="pregnancy-pic">
     </div>
     
     <div class="fruitimagecontainer">
       <img src="./Assets/FruitImages/PW21.gif" id="fruit" class="pregnancy-pic">
     </div>
-
+    <!--This calls on the CSS to create the description box. -->
     <div style="margin-bottom: 100vh;" class="description description--card">
       <div class="description">
-        <h3 class="description__title">Lorem ipsum dolor</h3>
-        <p class="description__body">Lorem ipsum dolor sit amet.</p>
+        <!--This creates the description box for Mom's changes during pregnancy -->
+        <h3 class="description__title">Mom Changes</h3>
+        <p class="description__body" id = "description_body_MomChanges"/>Move The Slider Above To Start Seeing The Stages Of Pregnancy</p>
+        <!--This creates the description box for the Baby's changes during pregnancy -->
+        <h3 class="description__title">Baby Changes</h3>
+        <p class="description__body" id = "description_body_BabyChanges"/>Move The Slider Above To Start Seeing The Stages Of Pregnancy</p>
+        <!--This creates the description box for the Baby's size during pregnancy -->
+        <h3 class="description__title">Baby Size</h3>
+        <p class="description__body" id = "description_body_BabySizes"/>Move The Slider Above To Start Seeing The Stages Of Pregnancy</p>
       </div>
     </div>
 
-<!--This is a script I found that points to an image of a heart at the url listed. We can use our own local image for the point if we wanted - Anita
+<!--This is a script that points to an image of a heart at the url listed. - Anita
 -->
 <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol317.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2009/02/06/glass-heart.html" target="_blank" title="Pink Transparent Valentine Balloon Heart"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Pink Transparent Valentine Balloon Heart" style="position:absolute; top: 0px; right: 0px;" /></a>
 
 
-<!-- Shubh testing displaying text from a description box-->
 
 <div id="sampletext">
 
