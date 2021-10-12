@@ -10,9 +10,20 @@ function updateImage(val) {
   
   //This calls the text for the description of each week
   //after response.text(), the variable 'text' references the text pulled from the external text files
+  //This extracts the text about all mom changes from the ./Assets/TextBabyChanges/MomChanges*.txt files
+  fetch('./Assets/TextMomChanges/MomChange' + val + '.txt')
+  .then(response => response.text())
+  .then(text => document.getElementById("description_body_MomChanges").innerHTML=text);
+  //This extracts the text about all baby changes from the ./Assets/TextBabyChanges/BabyChanges*.txt files
   fetch('./Assets/TextBabyChanges/BabyChanges' + val + '.txt')
   .then(response => response.text())
-  .then(text => document.getElementById("sampletext").innerHTML=text)
+  .then(text => document.getElementById("description_body_BabyChanges").innerHTML=text);
+  //This extracts the text about all baby changes in size from the ./Assets/TextBabyChanges/BabySize*.txt files
+  fetch('./Assets/TextBabySize/BabySize' + val + '.txt')
+  .then(response => response.text())
+  .then(text => document.getElementById("description_body_BabySizes").innerHTML=text);
+  
+
 
 }
 
