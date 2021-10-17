@@ -18,50 +18,82 @@
   </head>
   <body>
     <script src="script.js"></script>
- 
-    <!--This is the top area containing the logo, title, and 'AboutUs' text button-->
-    <div class="TopContainer">
-      <img src=/Assets/Logo/LogoOnly.gif class="logoimage">
+    
+
+    <!--gridded container that will envelop everything else-->
+    <div class="container">
       
-    </div>
+      
+
+
+
+      <!--This is the top area containing the logo, title, and 'AboutUs' text button-->
+      <div class="TopContainer">
+        <img src=/Assets/Logo/LogoOnly.gif class="logoimage">
+      
+      </div>
+
+
+      <div class="holdforMenu">
+        Week Dropdown Menu going here
+      </div>
+
+
+
         
-    <!--This calls the Scroll bar CSS-->
-    <div class="slidecontainer">  
-      <input type="range" min="1" max="42" value="21" class="slider" id="myRange" onchange="updateImage(this.value);">
-      <input type="text" id="textInput" value="21">
+      <!--This calls the Scroll bar CSS-->
+      <div class="slidecontainer">  
+        <input type="range" min="1" max="42" value="21" class="slider" id="myRange" onchange="updateImage(this.value);">
+        
       </div>  
 
-     <div class="updatecontainer">
-      <img src="./Assets/MomImages/momw21.gif" id="mombody" class="pregnancy-pic">
-    </div>
-    
-    <div class="fruitimagecontainer">
-      <img src="./Assets/FruitImages/PW21.gif" id="fruit" class="pregnancy-pic">
-    </div>
-    <!--This calls on the CSS to create the description box. -->
-    <div style="margin-bottom: 100vh;" class="description description--card">
-      <div class="description">
-        <!--This creates the description box for Mom's changes during pregnancy -->
-        <h3 class="description__title">Mom Changes</h3>
-        <p class="description__body" id = "description_body_MomChanges"/>Move The Slider Above To Start Seeing The Stages Of Pregnancy</p>
-        <!--This creates the description box for the Baby's changes during pregnancy -->
-        <h3 class="description__title">Baby Changes</h3>
-        <p class="description__body" id = "description_body_BabyChanges"/>Move The Slider Above To Start Seeing The Stages Of Pregnancy</p>
-        <!--This creates the description box for the Baby's size during pregnancy -->
-        <h3 class="description__title">Baby Size</h3>
-        <p class="description__body" id = "description_body_BabySizes"/>Move The Slider Above To Start Seeing The Stages Of Pregnancy</p>
+      <div class="updatecontainer">
+        <img src="./Assets/MomImages/momw21.gif" id="mombody" class="pregnancy-pic">
       </div>
-    </div>
+    
+      <div class="fruitimagecontainer">
+        <img src="./Assets/FruitImages/PW21.gif" id="fruit" class="fruit-pic">
+      </div>
+      <!--This calls on the CSS to create the description box. -->
+      <div style="margin-bottom: 100vh;" class="description description--card">
+        <div class="description">
+          <!--This creates the description box for Mom's changes during pregnancy -->
+          <h3 class="description__title">Mom Changes</h3>
+          <p class="description__body" id = "description_body_MomChanges"/>Move The Slider Above To Start Seeing The Stages Of Pregnancy</p>
+          <!--This creates the description box for the Baby's changes during pregnancy -->
+          <h3 class="description__title">Baby Changes</h3>
+          <p class="description__body" id = "description_body_BabyChanges"/>Move The Slider Above To Start Seeing The Stages Of Pregnancy</p>
+          <!--This creates the description box for the Baby's size during pregnancy -->
+          <h3 class="description__title">Baby Size</h3>
+          <p class="description__body" id = "description_body_BabySizes"/>Move The Slider Above To Start Seeing The Stages Of Pregnancy</p>
+        </div>
+      </div>
 
-<!--This is a script that points to an image of a heart at the url listed. - Anita
--->
-<style type="text/css">* {cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol317.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2009/02/06/glass-heart.html" target="_blank" title="Pink Transparent Valentine Balloon Heart"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Pink Transparent Valentine Balloon Heart" style="position:absolute; top: 0px; right: 0px;" /></a>
+  <!--This is a script that points to an image of a heart at the url listed. - Anita
+  -->
+  <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol317.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2009/02/06/glass-heart.html" target="_blank" title="Pink Transparent Valentine Balloon Heart"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Pink Transparent Valentine Balloon Heart" style="position:absolute; top: 0px; right: 0px;" /></a>
 
 
 
-<div id="sampletext">
+  <div id="sampletext">
 
+
+<!--this is the closing grid div tag-->
 </div>
+
+
+
+    
+
+
+
+
+   
+
+
+
+
+
 
   </body>
 </html>

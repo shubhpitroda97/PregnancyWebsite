@@ -1,7 +1,7 @@
 //updates image when slider is moved
 function updateImage(val) {
   //This gets the value from the scroll bar and shows it in the textbox
-  document.getElementById("textInput").value = val;
+ // document.getElementById("textInput").value = val;
   //This calls the new Mom Image and displays it on the page
   document.getElementById("mombody").src = "./Assets/MomImages/momw" + val + ".gif";
   //This calls the new Fruit Image and displays it on the page
