@@ -24,6 +24,10 @@ function updateImage(val) {
   .then(text => document.getElementById("description_body_BabySizes").innerHTML=text);
   
 
+  
+  document.getElementById("dbutton").innerHTML= "Week " + val;
+  document.getElementById("myRange").value=val;
+
 
 }
 
