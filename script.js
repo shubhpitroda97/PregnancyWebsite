@@ -26,6 +26,7 @@ function updateImage(val) {
 
   
   document.getElementById("dbutton").innerHTML= "Week " + val;
+  document.getElementById("myRange").value=val;
 
 
 }
