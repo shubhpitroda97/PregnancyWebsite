@@ -1,9 +1,32 @@
-# PregnancyWebsite
+# README
+# Pregnancy Website
 
-1st line "Module name"<br>
-2nd Line, Programmers name"<br>
-3rd Line, Date it was written<br>
-4th Line, Version Number with update, 1.0, 1.1, 1.2, etc.<br>
-5th Line, Description - short - one or two sentences<br>
-6th Line, Any data variable that is used in that module needs to be listed. (It's for testing purposes - when you have an issue, something's not right. One of the quickest way to find it is by knowing what the data variable is, i.e. "total" - It's important to know which variables are being looked at, touched, etc.)<br><br>
-Comments inside the modules are always helpful. If its complex, an explanation is useful. If it's self explanatory, then it's wasteful. Preamble is not optional. This documents the activity incase original programmer cannot continue,etc. 
+## Members
+Lukas Roe, Anita Turnbull, Shubh Pitroda, Vincent Neil Checa
+
+## Description<br>
+
+This is the source code of a website that shows the weekly stages of pregnancy.  The website compares the weekly stages of the baby to a fruit or vegetable of the same size.  It also gives a description of the events each week.
+
+
+## Installation<br>
+Download from GitHub
+Extract files
+Ensure that all files are in the same directory.
+Launch index file in browser.
+The website should work.
+
+## Support<br>
+The website can be hosted on an apache2 server with the use of a domain to make the webpage available to the public.  If this is wanted, follow this guide on how to setup and apache2 server and link a domain to it.
+[Apache2 Guide](https://www.youtube.com/playlist?list=PLqlbHJcm6UZRNhPzQ4Z-X-CDfvI0-d3Ut)
+
+
+## Authors<br>
+Lukas Roe, Anita Turnbull, Shubh Pitroda, Vincent Neil Checa
+
+## License<br>
+[MIT](https://choosealicense.com/licenses/mit/)<br>
+
+## Project Status<br>
+Final
+Version 3.0
