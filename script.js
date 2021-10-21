@@ -1,3 +1,9 @@
+//[Javascript Script] 
+//[Lukas, Shubh, Vincent, Anita]
+//[10/20/21]
+//[1.3]
+//[Pregnancy Website that shows weekly stages of pregnancy.  Javascript part of the website.]
+
 //updates image when slider is moved
 function updateImage(val) {
   //This gets the value from the scroll bar and shows it in the textbox
